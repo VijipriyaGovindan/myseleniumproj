@@ -18,7 +18,7 @@ public class Utilies
 	        TakesScreenshot scrShot =((TakesScreenshot)webdriver);
 
 	        //Call getScreenshotAs method to create image file
-
+//Merge with some
 	                File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
 
 	            //Move image file to new destination
