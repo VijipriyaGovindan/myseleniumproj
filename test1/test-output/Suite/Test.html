@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 28 13:48:38 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>66 seconds (66354 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test1.test1.App.openPage()'><b>openPage</b><br>Test class: test1.test1.App<br/>
+<a href="#Output-3221358" onClick='toggleBox("Output-3221358", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3221358" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3221358">
+Page loaded and title is: Meet Guru99 - Free Training Tutorials & Video for IT Courses<br/>
+Links in page is : 82<br/>
+Links detai;s : [test1.test1.ExcelData@ea0775, test1.test1.ExcelData@15a9305, test1.test1.ExcelData@a0f12, test1.test1.ExcelData@16fea12, test1.test1.ExcelData@1c095a5, test1.test1.ExcelData@9fe2a3, test1.test1.ExcelData@57123d, test1.test1.ExcelData@1c5d1f, test1.test1.ExcelData@10089c4, test1.test1.ExcelData@9df37d, test1.test1.ExcelData@b1c7a9, test1.test1.ExcelData@818345, test1.test1.ExcelData@19c69f8, test1.test1.ExcelData@35732d, test1.test1.ExcelData@9d624d, test1.test1.ExcelData@644470, test1.test1.ExcelData@6924ad, test1.test1.ExcelData@1fc92d6, test1.test1.ExcelData@2e11ee, test1.test1.ExcelData@9f9f9f, test1.test1.ExcelData@1908c6d, test1.test1.ExcelData@2ddfeb, test1.test1.ExcelData@921ee1, test1.test1.ExcelData@95184b, test1.test1.ExcelData@1390110, test1.test1.ExcelData@189515b, test1.test1.ExcelData@16e2bdd, test1.test1.ExcelData@1e725fb, test1.test1.ExcelData@379796, test1.test1.ExcelData@1350382, test1.test1.ExcelData@1bdee7a, test1.test1.ExcelData@15bd28b, test1.test1.ExcelData@19a7211, test1.test1.ExcelData@ec4df3, test1.test1.ExcelData@82b32a, test1.test1.ExcelData@1f2ecbb, test1.test1.ExcelData@100112e, test1.test1.ExcelData@1955568, test1.test1.ExcelData@4fbd13, test1.test1.ExcelData@241615, test1.test1.ExcelData@13ee95e, test1.test1.ExcelData@2fc744, test1.test1.ExcelData@1b145f7, test1.test1.ExcelData@1bd68ea, test1.test1.ExcelData@115111a, test1.test1.ExcelData@17aec9b, test1.test1.ExcelData@538ffe, test1.test1.ExcelData@e75ba6, test1.test1.ExcelData@1ab1821, test1.test1.ExcelData@16137fb, test1.test1.ExcelData@1657b96, test1.test1.ExcelData@19f30b7, test1.test1.ExcelData@864875, test1.test1.ExcelData@ae75f1, test1.test1.ExcelData@eb15f9, test1.test1.ExcelData@1f8a1b, test1.test1.ExcelData@8cbf8d, test1.test1.ExcelData@16c5950, test1.test1.ExcelData@11ec699, test1.test1.ExcelData@12ddbf3, test1.test1.ExcelData@ee730c, test1.test1.ExcelData@11d1558, test1.test1.ExcelData@c022ac, test1.test1.ExcelData@1219e84, test1.test1.ExcelData@eaf47f, test1.test1.ExcelData@12e8eaf, test1.test1.ExcelData@960f64, test1.test1.ExcelData@1307fcc, test1.test1.ExcelData@ec2f59, test1.test1.ExcelData@172855d, test1.test1.ExcelData@1f358f8, test1.test1.ExcelData@1119b55, test1.test1.ExcelData@dcfd09, test1.test1.ExcelData@1efd4a2, test1.test1.ExcelData@d2693f, test1.test1.ExcelData@12a8183, test1.test1.ExcelData@1d169a, test1.test1.ExcelData@1a68e3f, test1.test1.ExcelData@288c65, test1.test1.ExcelData@1ef393a, test1.test1.ExcelData@118401b, test1.test1.ExcelData@bcfcf1]<br/>
+In Excel Operatiob Initiate method<br/>
+Writing data in 1 row and 1st column ashttps://www.guru99.com/software-testing.html<br/>
+Writing data in 2 row and 1st column ashttps://www.guru99.com/quick-test-professional-qtp-tutorial.html<br/>
+Writing data in 3 row and 1st column ashttps://www.guru99.com/selenium-tutorial.html<br/>
+Writing data in 4 row and 1st column ashttps://www.guru99.com/mobile-testing.html<br/>
+Writing data in 5 row and 1st column ashttps://www.guru99.com/cucumber-tutorials.html<br/>
+Writing data in 6 row and 1st column ashttps://www.guru99.com/soapui-tutorial.html<br/>
+Writing data in 7 row and 1st column ashttps://www.guru99.com/agile-testing-course.html<br/>
+Writing data in 8 row and 1st column ashttps://www.guru99.com/junit-tutorial.html<br/>
+Writing data in 9 row and 1st column ashttps://www.guru99.com/live-testing-project.html<br/>
+Writing data in 10 row and 1st column ashttps://www.guru99.com/live-selenium-project.html<br/>
+Writing data in 11 row and 1st column ashttps://www.guru99.com/live-ecommerce-project.html<br/>
+Writing data in 12 row and 1st column ashttps://www.guru99.com/live-uft-testing.html<br/>
+Writing data in 13 row and 1st column ashttps://www.guru99.com/live-interactive-exercise-hp-alm.html<br/>
+Writing data in 14 row and 1st column ashttps://www.guru99.com/live-mobile-testing-project.html<br/>
+Writing data in 15 row and 1st column ashttps://www.guru99.com/live-penetration-testing-project.html<br/>
+Writing data in 16 row and 1st column ashttps://www.guru99.com/live-php-project-learn-complete-web-development-cycle.html<br/>
+Writing data in 17 row and 1st column ashttps://www.guru99.com/live-agile-testing-project.html<br/>
+Writing data in 18 row and 1st column ashttps://www.guru99.com/live-insurance-testing-project.html<br/>
+Writing data in 19 row and 1st column ashttps://www.guru99.com/live-payment-gateway-project.html<br/>
+Writing data in 20 row and 1st column ashttps://www.guru99.com/live-telecom-project.html<br/>
+Writing data in 21 row and 1st column ashttps://www.guru99.com/jmeter-tutorials.html<br/>
+Writing data in 22 row and 1st column ashttps://www.guru99.com/loadrunner-v12-tutorials.html<br/>
+Writing data in 23 row and 1st column ashttps://www.guru99.com/what-is-sap.html<br/>
+Writing data in 24 row and 1st column ashttps://www.guru99.com/abap-tutorial.html<br/>
+Writing data in 25 row and 1st column ashttps://www.guru99.com/sap-hcm.html<br/>
+Writing data in 26 row and 1st column ashttps://www.guru99.com/sap-fico-training-tutorials.html<br/>
+Writing data in 27 row and 1st column ashttps://www.guru99.com/sap-basis-training-tutorials.html<br/>
+Writing data in 28 row and 1st column ashttps://www.guru99.com/free-sap-sd-training-course.html<br/>
+Writing data in 29 row and 1st column ashttps://www.guru99.com/sap-crm-training.html<br/>
+Writing data in 30 row and 1st column ashttps://www.guru99.com/sap-mm-training-tutorials.html<br/>
+Writing data in 31 row and 1st column ashttps://www.guru99.com/co-tutorials.html<br/>
+Writing data in 32 row and 1st column ashttps://www.guru99.com/sap-payroll.html<br/>
+Writing data in 33 row and 1st column ashttps://www.guru99.com/sap-bi.html<br/>
+Writing data in 34 row and 1st column ashttps://www.guru99.com/sap-pp-tutorials.html<br/>
+Writing data in 35 row and 1st column ashttps://www.guru99.com/sap-quality-management-qm-tutorial.html<br/>
+Writing data in 36 row and 1st column ashttps://www.guru99.com/sap-hana-tutorial.html<br/>
+Writing data in 37 row and 1st column ashttps://www.guru99.com/bugzilla-tutorial-for-beginners.html<br/>
+Writing data in 38 row and 1st column ashttps://www.guru99.com/jira-tutorial-a-complete-guide-for-beginners.html<br/>
+Writing data in 39 row and 1st column ashttps://www.guru99.com/mantis-bug-tracker-tutorial.html<br/>
+Writing data in 40 row and 1st column ashttps://www.guru99.com/utlimate-guide-etl-datawarehouse-testing.html<br/>
+Writing data in 41 row and 1st column ashttps://www.guru99.com/learn-sap-testing-create-your-first-sap-test-case.html<br/>
+Writing data in 42 row and 1st column ashttps://www.guru99.com/data-testing.html<br/>
+Writing data in 43 row and 1st column ashttps://www.guru99.com/java-tutorial.html<br/>
+Writing data in 44 row and 1st column ashttps://www.guru99.com/sql.html<br/>
+Writing data in 45 row and 1st column ashttps://www.guru99.com/pl-sql-tutorials.html<br/>
+Writing data in 46 row and 1st column ashttps://www.guru99.com/vbscript-tutorials-for-beginners.html<br/>
+Writing data in 47 row and 1st column ashttps://www.guru99.com/python-tutorials.html<br/>
+Writing data in 48 row and 1st column ashttps://www.guru99.com/perl-tutorials.html<br/>
+Writing data in 49 row and 1st column ashttps://www.guru99.com/unix-linux-tutorial.html<br/>
+Writing data in 50 row and 1st column ashttps://www.guru99.com/interactive-javascript-tutorials.html<br/>
+Writing data in 51 row and 1st column ashttps://www.guru99.com/apache.html<br/>
+Writing data in 52 row and 1st column ashttps://www.guru99.com/php-tutorials.html<br/>
+Writing data in 53 row and 1st column ashttps://www.guru99.com/angularjs-tutorial.html<br/>
+Writing data in 54 row and 1st column ashttps://www.guru99.com/node-js-tutorial.html<br/>
+Writing data in 55 row and 1st column ashttps://www.guru99.com/jsp-tutorial.html<br/>
+Writing data in 56 row and 1st column ashttps://www.guru99.com/sqlite-tutorial.html<br/>
+Writing data in 57 row and 1st column ashttps://www.guru99.com/web-services-tutorial.html<br/>
+Writing data in 58 row and 1st column ashttps://www.guru99.com/c-tutorial.html<br/>
+Writing data in 59 row and 1st column ashttps://www.guru99.com/asp-net-tutorial.html<br/>
+Writing data in 60 row and 1st column ashttps://www.guru99.com/hp-alm-free-tutorial.html<br/>
+Writing data in 61 row and 1st column ashttps://www.guru99.com/test-management.html<br/>
+Writing data in 62 row and 1st column ashttps://www.guru99.com/testlink-tutorial-complete-guide.html<br/>
+Writing data in 63 row and 1st column ashttps://www.guru99.com/excel-tutorials.html<br/>
+Writing data in 64 row and 1st column ashttps://www.guru99.com/accounting.html<br/>
+Writing data in 65 row and 1st column ashttps://www.guru99.com/ethical-hacking-tutorials.html<br/>
+Writing data in 66 row and 1st column ashttps://www.guru99.com/cloud-computing-for-beginners.html<br/>
+Writing data in 67 row and 1st column ashttps://www.guru99.com/photoshop-tutorials.html<br/>
+Writing data in 68 row and 1st column ashttps://www.guru99.com/bigdata-tutorials.html<br/>
+Writing data in 69 row and 1st column ashttps://www.guru99.com/free-digital-marketing-tutorial.html<br/>
+Writing data in 70 row and 1st column ashttps://www.guru99.com/business-analyst-tutorial-course.html<br/>
+Writing data in 71 row and 1st column ashttps://www.guru99.com/informatica-tutorials.html<br/>
+Writing data in 72 row and 1st column ashttps://www.guru99.com/project-management-methodology.html<br/>
+Writing data in 73 row and 1st column ashttps://www.guru99.com/hbase-tutorials.html<br/>
+Writing data in 74 row and 1st column ashttps://www.guru99.com/mongodb-tutorials.html<br/>
+Writing data in 75 row and 1st column ashttps://www.guru99.com/hive-tutorials.html<br/>
+Writing data in 76 row and 1st column ashttps://www.guru99.com/cassandra-tutorial.html<br/>
+Writing data in 77 row and 1st column ashttps://www.guru99.com/pmp-tutorial.html<br/>
+Writing data in 78 row and 1st column ashttps://www.guru99.com/mis-tutorial.html<br/>
+Writing data in 79 row and 1st column ashttps://www.guru99.com/vba-tutorial.html<br/>
+Writing data in 80 row and 1st column ashttps://www.guru99.com/introduction-ccna.html<br/>
+Writing data in 81 row and 1st column ashttps://www.guru99.com/aws-tutorial.html<br/>
+Writing data in 82 row and 1st column ashttps://www.guru99.com/blog/<br/>
+Excel writing completed<br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>test1.test1.App@12679d6</td></tr>
+</table><p>
+</body>
+</html>
