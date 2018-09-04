@@ -57,7 +57,7 @@ public class App
       
 
         Reporter.log("Page loaded and title is: " + driver.getTitle());
-        
+        Reporter.log("i am running this from GIT ");
         
         Utilies utilies = new Utilies();
   		try {
